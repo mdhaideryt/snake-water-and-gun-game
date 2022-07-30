@@ -5,7 +5,7 @@ cpu=0
 l=("snake","water","gun")
 while(True):
     if m>0:
-        n = input("press s for snake, w for water and g for gun\n")
+        n = input("press s for snake, w for water and g for gun\n").lower()
         m=m-1
         import random
         c = random.choice(l)
